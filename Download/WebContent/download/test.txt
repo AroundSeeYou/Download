@@ -1,0 +1,85 @@
+﻿Lenovo@LAPTOP-7S46S13V MINGW64 ~
+$ pwd
+/c/Users/Lenovo
+
+Lenovo@LAPTOP-7S46S13V MINGW64 ~
+$ cd d:/
+
+Lenovo@LAPTOP-7S46S13V MINGW64 /d
+$ pwd
+/d
+
+Lenovo@LAPTOP-7S46S13V MINGW64 /d
+$ mkdir javaweb1
+
+Lenovo@LAPTOP-7S46S13V MINGW64 /d
+$ cd javaweb1
+
+Lenovo@LAPTOP-7S46S13V MINGW64 /d/javaweb1
+$ git clone https://gitee.com/soft1702/crud_of_article.git
+Cloning into 'crud_of_article'...
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 13 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (13/13), done.
+
+Lenovo@LAPTOP-7S46S13V MINGW64 /d/javaweb1
+$ ls
+crud_of_article/
+
+Lenovo@LAPTOP-7S46S13V MINGW64 /d/javaweb1
+$ cd crud_of_article/
+
+Lenovo@LAPTOP-7S46S13V MINGW64 /d/javaweb1/crud_of_article (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        1702/13/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@LAPTOP-7S46S13V MINGW64 /d/javaweb1/crud_of_article (master)
+$ git add .
+
+Lenovo@LAPTOP-7S46S13V MINGW64 /d/javaweb1/crud_of_article (master)
+$ git commit -m '第一次作业'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Lenovo@LAPTOP-7S46S13V.(none)')
+
+Lenovo@LAPTOP-7S46S13V MINGW64 /d/javaweb1/crud_of_article (master)
+$ git config --global user.email "1035524733@qq.com"
+
+Lenovo@LAPTOP-7S46S13V MINGW64 /d/javaweb1/crud_of_article (master)
+$  git config --global user.name "王兴烁"
+
+Lenovo@LAPTOP-7S46S13V MINGW64 /d/javaweb1/crud_of_article (master)
+$ git commit -m '第一次作业'
+[master dcc7057] 第一次作业
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 1702/13/1.txt
+
+Lenovo@LAPTOP-7S46S13V MINGW64 /d/javaweb1/crud_of_article (master)
+$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 394 bytes | 394.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Powered by GITEE.COM [GNK-3.8]
+To https://gitee.com/soft1702/crud_of_article.git
+   e29e419..dcc7057  master -> master

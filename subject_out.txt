@@ -1,0 +1,7 @@
+1	LogicJava	42	1
+3	JavaOOP	45	2
+4	PHP	36	3
+5	python	15	4
+6	abc_j	53	2
+7	面向对象程序设计	56	3
+1001	HTML	160	1
